@@ -1,3 +1,51 @@
 WebClientResponseException:	HTTP response received with error status (4xx, 5xx)
 WebClientRequestException:	Error in the request execution (e.g., connection timeout)
 WebClientException:	General superclass for all WebClient-related exceptions
+killing the specific port 
+kill $(lsof -t -i:8080)
+====================
+Application-local.yaml
+=================
+uploadbucket:
+  name: 
+scanbucket:
+  name: 
+================
+pyhton script for aws
+
+python3 UpdateCred.py
+===================
+final  StreamingResponseBody     responseBody = outputStream ->
+          taxonomyExportService.exportAllTaxonomyYamlByWorkspaceAndLanguage(workspaceId, languageCode, outputStream);
+
+
+logs for sql query
+=============
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        type: trace
+================
+java best  practice
+
+  1.public method. Top
+  2.private method  bottom
+  3.each every method variable should be final,
+  4.all new declarations/ instance creation  make the final 
+5. Run the all the test local proper  like integration, unit test cases,
+6. Run check list every time  when you made the changes .
+7.  Declare variable and method camelcase and standard naming convention.
+
+====================
+React best practice
+
+React components should be structured in following order,
+State variables
+Hooks (useEffect, useCallback, etc.)
+Methods (grouped by functionality)
+Render helpers
+Main render
+===========
