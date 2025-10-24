@@ -1,0 +1,3 @@
+WebClientResponseException:	HTTP response received with error status (4xx, 5xx)
+WebClientRequestException:	Error in the request execution (e.g., connection timeout)
+WebClientException:	General superclass for all WebClient-related exceptions
